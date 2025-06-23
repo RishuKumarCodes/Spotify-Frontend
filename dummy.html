@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="02_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <img src="./assets/pngegg.png" />
+                    <a href="#">Spotify</a>
+                </div>
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-igloo"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="nav option1">
+                <div class="options">
+                    <div class="lib-options">
+                        <img src="./assets/library_icon.png " width="22" height="22" />
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div>
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy, we'll help you</p>
+                        <button class="btn"><b>Create playlist</b></button>
+                    </div>
+                    <div>
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on the episodes</p>
+                        <button class="btn"><b>Browse podcast</b></button>
+                    </div>
+                </div>
+                <div class="language">
+                    <a href="#"><i class="fa-solid fa-globe"></i>
+                        <p><b>English</b></p>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="library"></div> -->
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-1">
+                    <div class=btns>
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="hide fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="sticky-nav-options">
+                        <button class="btn hide"><b>Explore Premium</b></button>
+                        <button class="btn dark-btn"><b><i class="fa-regular fa-circle-down"></i>Install
+                                App</b></button>
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+                <div class="sticky-nav-2">
+                    <button class="btn allbtn"><b>All</b></button>
+                    <button class="btn"><b>Music</b></button>
+                    <button class="btn"><b>premium</b></button>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/card1img.jpeg">
+                        <h3 class="card-title">Top 50 - Global</h3>
+                        <p class="card-info">Your dialy updates of the most played tracks</p>
+                    </div>
+                    <div>
+                        <img src="assets/played.png">
+                        <h3 class="card-title">Making Memories</h3>
+                        <p class="card-info">karan Aujla, Ikky</p>
+                    </div>
+                    <div>
+                        <img src="assets/played.jpg">
+                        <h3 class="card-title">Machayenge</h3>
+                        <p class="card-info">Emiway Bantai</p>
+                    </div>
+                </div>
+                <h2>Popular Artists</h2>
+                <div class="sub-card artists">
+                    <div>
+                        <img src="assets/singer.png">
+                        <h3 class="card-title">Rishu Kumar</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (3).png">
+                        <h3 class="card-title">Ajay Nager</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (2).png">
+                        <h3 class="card-title">Yash Raj</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (3).jpg">
+                        <h3 class="card-title">Jasleen Royal</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (6).jpg">
+                        <h3 class="card-title">Darshan Raval</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (1).jpg">
+                        <h3 class="card-title">Arjit Singh</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                    <div>
+                        <img src="assets/singer (4).jpg">
+                        <h3 class="card-title">Atif Alsam</h3>
+                        <p class="card-info">Singer</p>
+                    </div>
+                </div>
+                <h2>Popular Albums</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/albums (1).png">
+                        <h3 class="card-title">Hamari Adhuri Kahani</h3>
+                        <p class="card-info">Jeet Ganguli, Mithoon, Ami Mishra</p>
+                    </div>
+                    <div>
+                        <img src="assets/albums (2).png">
+                        <h3 class="card-title">Sataranga (From Animal)</h3>
+                        <p class="card-info">Arjit Singh, Shreyas Puranik, Siddharth-Garima</p>
+                    </div>
+                    <div>
+                        <img src="assets/albums (4).png">
+                        <h3 class="card-title">Kabir Singh</h3>
+                        <p class="card-info">Various Artists</p>
+                    </div>
+                    <div>
+                        <img src="assets/albums (5).png">
+                        <h3 class="card-title">Avesham (orignal Motion)</h3>
+                        <p class="card-info">Sushin Shyam, Vinayak Sasikumar</p>
+                    </div>
+                    <div>
+                        <img src="assets/albums (6).png">
+                        <h3 class="card-title">Ashiqui 2</h3>
+                        <p class="card-info">Mitthoon, Ankit Tiwari, Jeet Canguli</p>
+                    </div>
+                    <div>
+                        <img src="assets/album3.jpeg">
+                        <h3 class="card-title">Mere paas Tum ho</h3>
+                        <p class="card-info">Various Artists</p>
+                    </div>
+                </div>
+                <h2>Popular Radio</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/radio (1).png">
+                        <h3 class="card-title">Arjit Singh Radio</h3>
+                        <p class="card-info">With Neha Kakkar, pritam, kk and more</p>
+                    </div>
+                    <div>
+                        <img src="assets/radio (2).png">
+                        <h3 class="card-title">Neha Kakkar Radio</h3>
+                        <p class="card-info">With Badsah, Tony Kakkar Milka singh and more</p>
+                    </div>
+                    <div>
+                        <img src="assets/radio (3).png">
+                        <h3 class="card-title">Lata Mangeshkar Radio</h3>
+                        <p class="card-info">With Asha Bhosle, Mohammed Rafi and more</p>
+                    </div>
+                    <div>
+                        <img src="assets/radio (4).png">
+                        <h3 class="card-title">Atif Alsam Radio</h3>
+                        <p class="card-info">With Ali Zafar, Rahat Fateh Ali Khan, Ashim and more</p>
+                    </div>
+                    <div>
+                        <img src="assets/radio (5).png">
+                        <h3 class="card-title">Sidhu Moose Wala Radio</h3>
+                        <p class="card-info">With Ammy Vrik, Amrit Maan, Karan Aujila and more</p>
+                    </div>
+                    <div>
+                        <img src="assets/radio (6).png">
+                        <h3 class="card-title">Yo Yo Honey Singh Radio</h3>
+                        <p class="card-info">With Rmran Khan, Badshah, Milka Singh and more</p>
+                    </div>
+                </div>
+                <h2>Fresh new music</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/fresh (1).png">
+                        <h3 class="card-title">new Music Hindi</h3>
+                        <p class="card-info">Love hits a sixer with 'Dekhha Tenu' from Mr. & mrs. Mahi</p>
+                    </div>
+                    <div>
+                        <img src="assets/fresh (2).png">
+                        <h3 class="card-title">new Boots</h3>
+                        <p class="card-info">new Music Discovery is what we're about. Try it on for size. Cover:...</p>
+                    </div>
+                    <div>
+                        <img src="assets/fresh (3).png">
+                        <h3 class="card-title">Trending Now Tamil</h3>
+                        <p class="card-info">Top trending Tamil Songs on Social Meida Cover: Aranmani 4</p>
+                    </div>
+                    <div>
+                        <img src="assets/fresh (4).png">
+                        <h3 class="card-title"></h3>
+                        <p class="card-info"></p>
+                    </div>
+                    <div>
+                        <img src="assets/fresh (5).png">
+                        <h3 class="card-title"></h3>
+                        <p class="card-info"></p>
+                    </div>
+                    <div>
+                        <img src="assets/fresh (6).png">
+                        <h3 class="card-title"></h3>
+                        <p class="card-info"></p>
+                    </div>
+                </div>
+                <h2>Interview with Bollywood herohines</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/Interviews (1).png">
+                        <h3 class="card-title">Jhanvi Kapoor | Beer Biceps</h3>
+                        <p class="card-info">Aug 2022 <span>&#183;</span> 56 min</p>
+                    </div>
+                    <div>
+                        <img src="assets/Interviews (2).png">
+                        <h3 class="card-title">priyanka Chopra Jonas</h3>
+                        <p class="card-info">May 2023 <span>&#183;</span> 64 min</p>
+                    </div>
+                    <div>
+                        <img src="assets/Interviews (3).png">
+                        <h3 class="card-title">Deepika Padukone on Hollywood</h3>
+                        <p class="card-info">Jun 2022 <span>&#183;</span> 8 min</p>
+                    </div>
+                    <div>
+                        <img src="assets/Interviews (4).png">
+                        <h3 class="card-title">Ep. 36: Alia Bhatt</h3>
+                        <p class="card-info">Aug 2022 <span>&#183;</span> 73 min</p>
+                    </div>
+                    <div>
+                        <img src="assets/Interviews (5).png">
+                        <h3 class="card-title">Kira Advani | On the move</h3>
+                        <p class="card-info">Jun 2019 <span>&#183;</span> 36 min</p>
+                    </div>
+                    <div>
+                        <img src="assets/Interviews (6).png">
+                        <h3 class="card-title">kareena kapoor Khan like never before</h3>
+                        <p class="card-info">mar 26 <span>&#183;</span> 72 min</p>
+                    </div>
+                </div>
+                <h2>Charts</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/charts.png">
+                        <h3 class="card-title">Top 50 - Global</h3>
+                        <p class="card-info">Your daily update of the most played tracks</p>
+                    </div>
+                    <div>
+                        <img src="assets/charts (4).png">
+                        <h3 class="card-title">Hot Hits Hindi</h3>
+                        <p class="card-info">Hottest Hindi Music Served here.</p>
+                    </div>
+                    <div>
+                        <img src="assets/charts (2).png">
+                        <h3 class="card-title">new Music Punjabi</h3>
+                        <p class="card-info">Stay Updated with all the smashing new Punjabi songs</p>
+                    </div>
+                    <div>
+                        <img src="assets/charts (3).png">
+                        <h3 class="card-title">Hot Hits India</h3>
+                        <p class="card-info">Hottest Tracks in India. Cover:Taylor Swift</p>
+                    </div>
+                    <div>
+                        <img src="assets/charts (5).png">
+                        <h3 class="card-title">Hot Hits Telgu</h3>
+                        <p class="card-info">Tune into The Hottest Tracks of Tollywood!</p>
+                    </div>
+                    <div>
+                        <img src="assets/charts (1).png">
+                        <h3 class="card-title">Hot Hits Punjabi</h3>
+                        <p class="card-info">Catch the hottest Punjabi tracks with...</p>
+                    </div>
+                </div>
+                <h2>Mellow Summer</h2>
+                <div class="sub-card">
+                    <div>
+                        <img src="assets/summer (1).png">
+                        <h3 class="card-title">Chaa & chill</h3>
+                        <p class="card-info">Time to chill with your favorites</p>
+                    </div>
+                    <div>
+                        <img src="assets/summer (2).png">
+                        <h3 class="card-title">1 AM Feels Hindi</h3>
+                        <p class="card-info">late night cool, & these soothing tumes.</p>
+                    </div>
+                    <div>
+                        <img src="assets/summer (3).png">
+                        <h3 class="card-title">Lofi Vibe Hindi</h3>
+                        <p class="card-info">Inhale & exhale to the beats of Lofi</p>
+                    </div>
+                    <div>
+                        <img src="assets/summer (4).png">
+                        <h3 class="card-title">Lofi Vibe Tamil</h3>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div>
+                        <img src="assets/summer (5).png">
+                        <h3 class="card-title">AScoustic Lounge Punjabi</h3>
+                        <p class="card-info">Acoustic version of your favourite Punjabi songs</p>
+                    </div>
+                    <div>
+                        <img src="assets/summer (6).png">
+                        <h3 class="card-title">Chill Karlo</h3>
+                        <p class="card-info">Sit Back, Unwind Te Thand Rakho! Cover:Avvy Sara,...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-end">
+                <div class="links">
+                    <div>
+                        <h3>company</h3>
+                        <a href="#">About</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">for the Record</a>
+                    </div>
+                    <div>
+                        <h3>Communities</h3>
+                        <a href="#">For artists</a>
+                        <a href="#">Devlopers</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Vendors</a>
+                    </div>
+                    <div>
+                        <h3>Useful Links</h3>
+                        <a href="#">Free Mobile App</a>
+                    </div>
+                    <div>
+                        <h3>Spotify Plans</h3>
+                        <a href="#">Premium Indivudual</a>
+                        <a href="#">Premium Duo</a>
+                        <a href="#">Premium family</a>
+                        <a href="#">Premium Student</a>
+                        <a href="#">Soptify Free</a>
+                    </div>
+                    <div class="Social-media-links">
+                        <a href="#"><img src="assets/instaicon.png"></a>
+                        <a href="#"><img src="assets/twittericon.png"></a>
+                        <a href="#"><img src="assets/fbicon.png"></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="links links-2">
+                    <div>
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">privacy policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <div class="clone">
+                        @ Rishu Kumar clone project
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="album">
+            <img src="./assets/Interviews (3).png" >
+            <div>
+                <h3>Deepika Padukone on Hollywood</h3>
+                <p>Vouge's 73 Questions</p>
+            </div>
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="./assets/player_icon1.png" class="player-control-icon">
+                <img src="./assets/player_icon2.png" class="player-control-icon">
+                <img src="./assets/player_icon3.png" class="player-control-icon icon-mid">
+                <img src="./assets/player_icon4.png" class="player-control-icon">
+                <img src="./assets/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min = "0" max = "100" class="progress-bar">
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-bookmark"></i>
+            <i class="fa-solid fa-link"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" min = "0" max = "100" class="progress-bar">
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
