@@ -6,9 +6,11 @@ A year ago (June 2024), I built a cool Spotify frontend clone. It was just there
 
 ## 🚀 Live Site
 
-👉 [Check it out here](https://rishukumarcodes.github.io/Spotify-Frontend/)
+
+# 👉 [Check it out here](https://rishukumarcodes.github.io/Spotify-Frontend/)
 
 ---
+
 
 ## ✨ Highlights
 
